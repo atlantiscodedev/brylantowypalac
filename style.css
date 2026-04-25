@@ -872,9 +872,13 @@ img{max-width:100%;height:auto;display:block}
   .footer-links{order:2}
   .about-image img{height:350px}
   .about-stats{flex-direction:column;gap:32px;align-items:center;text-align:center}
+  .navbar-logo img{transform:scale(2)}
+  .footer-logo img{transform:scale(2.5)}
 }
 @media (max-width:480px){
   .hero-title{font-size:2.2rem}
   .hero-btn{padding:14px 32px;font-size:0.75rem}
   .container{padding:0 20px}
+  .navbar-logo img{transform:scale(1.6)}
+  .footer-logo img{transform:scale(2)}
 }
